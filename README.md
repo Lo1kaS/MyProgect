@@ -9,6 +9,7 @@
 
 
 Система поиска путей 
+
 ![vay](https://user-images.githubusercontent.com/71433614/219137426-a5b03da0-5c00-4102-914d-d1cd9788bcd6.gif)
 
 Система пути нпс и триггер на игрока 
