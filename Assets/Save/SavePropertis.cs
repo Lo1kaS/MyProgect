@@ -1,0 +1,66 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+namespace SaveData
+{
+    [System.Serializable]
+    public class SavePropertis
+    {
+
+
+        public class VideoSettings
+        {
+            public int ScreenResolution;
+
+            public int ScreenModed;
+
+            public int Quality;
+
+            public int Framerate;
+
+            public VideoSettings()
+            {
+                ScreenResolution = 2;
+
+                Quality = 3;
+
+                ScreenModed = 2;
+
+                Framerate = 0;
+            }
+        }
+        public class InputSettings
+        {
+            public string Forward;
+
+            public string Backward;
+
+            public string Left;
+
+            public string Right;
+
+            public string Attack;
+
+            public string ActiveItem;
+
+            public InputSettings()
+            {
+                Forward = "w";
+
+                Backward = "s";
+
+                Left = "a";
+
+                Right = "d";
+
+                Attack = "f";
+
+                ActiveItem = "space";
+            }
+
+        }
+    }
+}
+  
